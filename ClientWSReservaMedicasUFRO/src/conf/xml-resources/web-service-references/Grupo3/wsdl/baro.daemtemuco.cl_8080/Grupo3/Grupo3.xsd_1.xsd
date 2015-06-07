@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://services/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://services/">
+
+<xs:element name="obtenerBox" type="tns:obtenerBox" />
+
+<xs:element name="obtenerBoxResponse" type="tns:obtenerBoxResponse" />
+
+<xs:element name="obtenerMedicoDeUnaEspecialidad" type="tns:obtenerMedicoDeUnaEspecialidad" />
+
+<xs:element name="obtenerMedicoDeUnaEspecialidadResponse" type="tns:obtenerMedicoDeUnaEspecialidadResponse" />
+
+<xs:element name="obtenerPorcentajeOcupacionMedico" type="tns:obtenerPorcentajeOcupacionMedico" />
+
+<xs:element name="obtenerPorcentajeOcupacionMedicoResponse" type="tns:obtenerPorcentajeOcupacionMedicoResponse" />
+
+<xs:complexType name="obtenerMedicoDeUnaEspecialidad">
+<xs:sequence>
+<xs:element name="idEspecialidad" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtenerMedicoDeUnaEspecialidadResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtenerPorcentajeOcupacionMedico">
+<xs:sequence>
+<xs:element name="idMedico" type="xs:int" />
+<xs:element name="fechaInicial" type="xs:string" minOccurs="0" />
+<xs:element name="fechaFinal" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtenerPorcentajeOcupacionMedicoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="obtenerBox">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="obtenerBoxResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

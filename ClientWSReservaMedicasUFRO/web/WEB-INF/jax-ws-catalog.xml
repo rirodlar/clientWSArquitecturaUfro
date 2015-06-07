@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://baro.daemtemuco.cl:8080/Grupo3/Grupo3?wsdl" uri="wsdl/baro.daemtemuco.cl_8080/Grupo3/Grupo3.wsdl"/>
+    <system systemId="http://baro.daemtemuco.cl:8080/Grupo3/Grupo3?xsd=1" uri="wsdl/baro.daemtemuco.cl_8080/Grupo3/Grupo3.xsd_1.xsd"/>
+    <system systemId="http://baro.daemtemuco.cl:8080/G4SysReservaHoraMedica/ObtenerPorcentajeOcupacionBox?wsdl" uri="wsdl/baro.daemtemuco.cl_8080/G4SysReservaHoraMedica/ObtenerPorcentajeOcupacionBox.wsdl"/>
+    <system systemId="http://baro.daemtemuco.cl:8080/G4SysReservaHoraMedica/ObtenerPorcentajeOcupacionBox?xsd=1" uri="wsdl/baro.daemtemuco.cl_8080/G4SysReservaHoraMedica/ObtenerPorcentajeOcupacionBox.xsd_1.xsd"/>
+</catalog>
